@@ -1,0 +1,12 @@
+{
+	"ShowAdvancedPuzzle": "Show Advanced Puzzle",
+	"Basic": "Basic",
+	"ShowBasicPuzzle": "Show Basic Puzzle",
+	"Advanced": "Advanced",
+	"moves": "moves",
+	"solved": "solved",
+	"rows": "rows",
+	"cols": "cols",
+	"shuffle": "shuffle",
+	"solve": "solve"
+}

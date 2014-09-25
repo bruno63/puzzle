@@ -1,0 +1,12 @@
+{
+	"ShowAdvancedPuzzle": "Schwieriges Puzzle anzeigen",
+	"Basic": "Einfach",
+	"ShowBasicPuzzle": "Einfaches Puzzle anzeigen",
+	"Advanced": "Schwierig",
+	"moves": "Züge",
+	"solved": "gelöst",
+	"rows": "Reihen",
+	"cols": "Kolonnen",
+	"shuffle": "mischen",
+	"solve": "lösen"
+}
