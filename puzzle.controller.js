@@ -2,7 +2,7 @@
 
 angular.module('puzzle')
 .controller('puzzleCtrl', function($scope, $translatePartialLoader, AppConfig) {
-	AppConfig.setCurrentApp('Puzzle', 'fa-puzzle-piece', 'puzzle', 'app/puzzle/menu.html');
+	AppConfig.setCurrentApp('Puzzle', 'fa-puzzle-piece', 'puzzle', '');
 	$translatePartialLoader.addPart('puzzle');
 
  	$scope.puzzles = [
