@@ -1,0 +1,11 @@
+<div>
+	{{ 'moves' | translate }}: <strong>{{puzzle.api.moves}}</strong>
+	<div class="pull-right">
+		{{ 'solved' | translate }}: <strong>{{puzzle.api.isSolved()}}</strong>
+	</div><br />
+	{{ 'rows' | translate }}: <input type="text" ng-model="puzzle.rows" size="2"/>
+	{{ 'cols' | translate }}: <input type="text" ng-model="puzzle.cols" size="2"/>
+	<br />
+	<button ng-click="puzzle.api.shuffle()">{{ 'shuffle' | translate }}</button>
+	<button ng-click="puzzle.api.solve()">{{ 'solve' | translate }}</button>
+</div>

@@ -1,12 +1,13 @@
 {
-	"ShowAdvancedPuzzle": "Schwieriges Puzzle anzeigen",
-	"Basic": "Einfach",
-	"ShowBasicPuzzle": "Einfaches Puzzle anzeigen",
-	"Advanced": "Schwierig",
+	"Level": "Stufe",
+	"Basic": "Anfänger",
+	"Advanced": "Fortgeschritten",
 	"moves": "Züge",
 	"solved": "gelöst",
 	"rows": "Reihen",
 	"cols": "Kolonnen",
-	"shuffle": "mischen",
-	"solve": "lösen"
+	"shuffle": "Mischen",
+	"solve": "Lösen",
+	"InfoShow": "Info anzeigen",
+	"InfoHide": "Info ausblenden"
 }

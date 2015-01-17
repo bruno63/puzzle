@@ -1,12 +1,13 @@
 {
-	"ShowAdvancedPuzzle": "Show Advanced Puzzle",
+	"Level": "Level",
 	"Basic": "Basic",
-	"ShowBasicPuzzle": "Show Basic Puzzle",
 	"Advanced": "Advanced",
 	"moves": "moves",
 	"solved": "solved",
 	"rows": "rows",
 	"cols": "cols",
-	"shuffle": "shuffle",
-	"solve": "solve"
+	"shuffle": "Shuffle",
+	"solve": "Solve",
+	"InfoShow": "Show Info",
+	"InfoHide": "Hide Info"
 }

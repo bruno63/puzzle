@@ -1,11 +1,12 @@
 <div class="container">
 	<div class="row-fluid col-sm-12">
 		<h1>Puzzle</h1>
-		<button ui-sref="puzzleAdvanced" class="btn btn-default">{{ 'ShowAdvancedPuzzle' | translate }}</button>
 		<hr />
 		<fieldset id="sliding-puzzle">
 			<legend>{{ 'Basic' | translate }}</legend>
-			<sliding-puzzle size="3x3" src="app/puzzle/img/zebra.jpg"></sliding-puzzle>
+			<h2>{{puzzle.title}}</h2>
+			<div ng-if="showInfo()" ng-include="'app/puzzle/puzzleInfo.html'"></div>
+			<sliding-puzzle api="puzzle.api" size="{{puzzle.rows}}x{{puzzle.cols}}" src="{{puzzle.src}}"></sliding-puzzle>
 		</fieldset>
 	</div>
 </div>
